@@ -22,7 +22,13 @@ AWS_SECRET_ACCESS_KEY="xxx~~~"
 ```
 2. `bunlde install` を行う。
 
-3. Railsコンソールを起動して
+3. Railsコンソールを起動して、以下を行い、バケットの作成を行う。
+```
+$ s3_up = S3SampleUploader.new
+$ s3_up.buckets_create
+```
+※手動でバケット作成していただいても大丈夫です。
+バケット名 : sample-aws-sdk
 
 4. Railsサーバーを起動し、 http://localhost:3000/fileuploads にアクセスする。
 
