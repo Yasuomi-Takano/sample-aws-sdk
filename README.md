@@ -20,6 +20,10 @@ Rails 5.1.2
 AWS_ACCESS_KEY_ID="xxx~~~"
 AWS_SECRET_ACCESS_KEY="xxx~~~"
 ```
-2. `bunlde install` を行い、 Railsサーバーを起動し、 http://localhost:3000/fileuploads にアクセスする。
+2. `bunlde install` を行う。
 
-3. zipファイルをアップロードする。
+3. Railsコンソールを起動して
+
+4. Railsサーバーを起動し、 http://localhost:3000/fileuploads にアクセスする。
+
+5. zipファイルをアップロードする。
