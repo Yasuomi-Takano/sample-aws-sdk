@@ -13,7 +13,7 @@ Rails 5.1.2
 
 * Usage
 
-1. `.env` ファイルをプロジェクトroot以下に作成し、各環境に合わせて設定する。
+1. `.env` ファイルをプロジェクトroot直下に作成し、各環境に合わせて設定する。
 ```
 AWS_ACCESS_KEY_ID="xxx~~~"
 AWS_SECRET_ACCESS_KEY="xxx~~~"
@@ -22,5 +22,3 @@ AWS_SECRET_ACCESS_KEY="xxx~~~"
 http://localhost:3000/fileuploads
 
 3. zipファイルをアップロードする。
-
-* ...
