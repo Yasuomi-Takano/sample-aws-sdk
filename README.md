@@ -6,19 +6,21 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+ruby 2.4.0p0 
 
-* System dependencies
+* Rails version
+Rails 5.1.2
 
-* Configuration
+* Usage
 
-* Database creation
+1. `.env` ファイルをプロジェクトroot以下に作成し、各環境に合わせて設定する。
+```
+AWS_ACCESS_KEY_ID="xxx~~~"
+AWS_SECRET_ACCESS_KEY="xxx~~~"
+```
+2. `bunlde install` を行い、 Railsサーバーを起動し、以下にアクセスする。
+http://localhost:3000/fileuploads
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+3. zipファイルをアップロードする。
 
 * ...
