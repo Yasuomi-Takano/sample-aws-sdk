@@ -6,9 +6,11 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+
 ruby 2.4.0p0 
 
 * Rails version
+
 Rails 5.1.2
 
 * Usage
